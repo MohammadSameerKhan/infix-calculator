@@ -1,0 +1,17 @@
+Script started on Sun 19 Mar 2023 08:08:02 PM CDT
+]0;gx6174jg@csci4:~/PROJECTS[?1034h[gx6174jg@csci4 PROJECTS]$ g++ infix_calculator.cpp -std=c++11
+]0;gx6174jg@csci4:~/PROJECTS[gx6174jg@csci4 PROJECTS]$ ./a.out
+Enter an infix expression (or type 'exit' to quit): 7 ((4+2)*3/^[[D      3)/2-1
+The result of the expression is: 8
+Enter an infix expression (or type 'exit' to quit): 5*(2+3)
+The result of the expression is: 25
+Enter an infix expression (or type 'exit' to quit): 5*(2+3
+Invalid expression! Please enter a valid infix expression.
+Enter an infix expression (or type 'exit' to quit): 5^2
+Invalid expression! Please enter a valid infix expression.
+Enter an infix expression (or type 'exit' to quit): 2+3*4
+The result of the expression is: 14
+Enter an infix expression (or type 'exit' to quit): exit
+]0;gx6174jg@csci4:~/PROJECTS[gx6174jg@csci4 PROJECTS]$ exit
+
+Script done on Sun 19 Mar 2023 08:10:57 PM CDT
